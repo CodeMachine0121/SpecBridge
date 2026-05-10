@@ -1,0 +1,14 @@
+{
+  "name": "example-api",
+  "version": "1.0.0",
+  "description": "Example API server for specbridge contract testing",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
