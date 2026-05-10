@@ -15,16 +15,7 @@ SpecBridge lets you describe the expected behaviour of an HTTP API in plain-Engl
 ## Installation
 
 ```bash
-# Clone and install dependencies
-git clone <repo-url>
-cd SpecBridge
-npm install
-```
-
-To use the `specbridge` command globally:
-
-```bash
-npm link
+npm install -g @ksz54213/specbridge
 ```
 
 ---
@@ -77,12 +68,6 @@ npm start
 ### 2 — Run contract verification
 
 From the project root:
-
-```bash
-node index.js verify -f example.feature -u http://localhost:3000
-```
-
-Or, if you ran `npm link`:
 
 ```bash
 specbridge verify -f example.feature -u http://localhost:3000

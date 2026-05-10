@@ -1,16 +1,27 @@
 {
-  "name": "specbridge",
+  "name": "@ksz54213/specbridge",
   "version": "0.1.0",
   "description": "Contract testing CLI tool — verify HTTP APIs against Gherkin feature files",
   "type": "module",
   "bin": {
-    "specbridge": "./index.js"
+    "specbridge": "index.js"
   },
+  "files": [
+    "src",
+    "index.js"
+  ],
   "scripts": {
     "test": "node --test --test-reporter=spec",
     "test:watch": "node --test --watch"
   },
-  "keywords": ["contract-testing", "gherkin", "api", "cli"],
+  "keywords": [
+    "contract-testing",
+    "gherkin",
+    "api",
+    "cli",
+    "bdd"
+  ],
+  "author": "James Hsueh",
   "license": "MIT",
   "dependencies": {
     "@cucumber/gherkin": "^29.0.0",
