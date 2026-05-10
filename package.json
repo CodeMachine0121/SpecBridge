@@ -1,0 +1,28 @@
+{
+  "name": "specbridge",
+  "version": "0.1.0",
+  "description": "Contract testing CLI tool — verify HTTP APIs against Gherkin feature files",
+  "type": "module",
+  "bin": {
+    "specbridge": "./index.js"
+  },
+  "scripts": {
+    "test": "node --test --test-reporter=spec",
+    "test:watch": "node --test --watch"
+  },
+  "keywords": ["contract-testing", "gherkin", "api", "cli"],
+  "license": "MIT",
+  "dependencies": {
+    "@cucumber/gherkin": "^29.0.0",
+    "@cucumber/messages": "^26.0.0",
+    "axios": "^1.7.0",
+    "chai": "^5.0.0",
+    "commander": "^12.0.0"
+  },
+  "devDependencies": {
+    "nock": "^13.5.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
